@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-bg{
+    height: 100vh;
+    background-image: url(./images/banner/banner3.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.main-title{
+    color: #fff;
+    padding-left: 800px;
+    padding-top: 250px;
+    
+
+}
+.btn-contact{
+    margin-top: 10px;
+    background-color:#fff;
+    padding: 10px 20px;
+    color: blue;
+    border-color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+/* Previous year styles */
+.previous-year{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+.icon{
+    margin-top: 10px;
+   display: flex; 
+   justify-content: flex-start;
+}
+.icon img{
+    width: 20px;
+    height: 30px;
+    
+}
+.failure-content{
+    text-align: center;
+    margin-top: 10px;
+}
+/* My Plans Styles */
+.title{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+.plans{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.plan-title{
+    margin-top: 5px;
+    align-items: center;
+}
+.positive-mindset{
+    margin: 50px 100px;
+    height: 300px; 
+    border-radius: 5px;
+    background-image: url(./images/gradient1.png),linear-gradient(rgba(135, 132, 132, 0.8),rgba(0,0,0,0.10));
+    background-repeat: no-repeat;  
+}
+/* positive-mindset starts */
+.mindset-description{
+    font-weight: 700;
+    font-size: 30px;
+    padding: 20px 50px;
+    color: #FFFFFF;    
+}
+.call-now{
+    width: 150px;
+    height: 64px;
+    left: 294px;
+    top: 2398.96px;
+    font-size: 20px;
+}
+/* footer */
+.footer{
+    background: #151414;
+   color: #fff;
+   padding-top: 20px;
+}
+.Futures{
+    display: flex;
+    justify-content:space-around;
+    align-content: center;  
+    padding-top: 20px; 
+}
+.futures-title{
+    font-weight: 700;
+    font-size: 45px;
+   
+}
+.futures-description{
+    padding: 20px 0;
+}
+.subscribe-title{
+    font-weight: 600;
+    font-size: 25px;
+}
+.icons img{
+    width:40px;
+    height: 40px;
+    margin-top: 20px;
+    
+}
+.input-text{
+    width: 325px;
+    height: 64px;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.btn-subscribe{
+    background: #005FAC;
+    border-radius: 8px;
+    width: 170.11px;
+    height: 64px;
+    margin-top: 20px;
+    font-size: 20px;
+}
